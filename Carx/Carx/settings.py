@@ -56,7 +56,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Carx.urls'
 
-AUTH_USER_MODEL = 'user.User'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
