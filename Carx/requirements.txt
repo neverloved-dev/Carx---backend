@@ -1,3 +1,5 @@
 django>=3.2.14
 djangorestframework
 django-rest-swagger
+psycopg2
+django-environ
