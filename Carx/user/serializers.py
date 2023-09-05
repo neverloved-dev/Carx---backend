@@ -4,7 +4,7 @@ from rest_framework import serializers,validators
 class UserRegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = OrdinaryUser
-        fields = ('first_name','last_name','phone_number')
+        fields = ('first_name','last_name','phone_number','email')
 
 
     def create(self,validated_data):
